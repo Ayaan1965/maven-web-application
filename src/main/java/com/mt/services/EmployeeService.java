@@ -29,7 +29,6 @@ public class EmployeeService {
 		js.put("Places he like", "His native place");
 
 		return js.toString();
-				if(){
-				}
+				int a=1, b=2,c=a+b;
 }
 }
