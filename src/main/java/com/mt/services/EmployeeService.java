@@ -22,6 +22,7 @@ public class EmployeeService {
 			throws JSONException {
 
 		JSONObject js = new JSONObject();
+				JSONObject js = new JSONObject();
 		js.put("Name", "Mithun Technologies");
 		js.put("Calling Name", "Mithun");
 		js.put("DOB", "08-Nov-2011");
@@ -29,6 +30,6 @@ public class EmployeeService {
 		js.put("Places he like", "His native place");
 
 		return js.toString();
-				int a=1, b=2,c=a+b;
+				
 }
 }
