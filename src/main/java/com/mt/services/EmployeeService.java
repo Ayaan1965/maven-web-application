@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class EmployeeService {
 
 	
-	@GetMapping(value = "/getEmployeeDetails", method = RequestMethod.GET)
+	@RequestMapping(value = "/getEmployeeDetails", method = RequestMethod.GET)
 	@ResponseBody
 	String uploadImage(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession)
 			throws JSONException {
-
+int a;
 		JSONObject js = new JSONObject();
 		js.put("Name", "Mithun Technologies");
 		js.put("Calling Name", "Mithun");
