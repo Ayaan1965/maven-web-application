@@ -104,7 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>amzon Snapshot Nexus Repository </name>
-	      <url></url>http://3.110.94.174:8081/repository/maven-snapshots/
+	      <url>http://3.110.94.174:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
